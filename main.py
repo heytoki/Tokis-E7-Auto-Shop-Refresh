@@ -11,8 +11,9 @@ from pytesseract import pytesseract
 
 BoundingBoxes = tuple[int, int, int, int]
 
-# THIS IS THE VARIABLE YOU SHOULD BE CHANGING!
+# THESE ARE THE VARIABLE YOU SHOULD BE CHANGING!
 Application = "BlueStacks"  # This is the Application you are using.
+pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'  # Copy paste the file directory then add \.
 # ^^^^
 
 Array_Items = ['Covenant', 'Mystic']
@@ -20,8 +21,6 @@ LEFT = 0
 TOP = 1
 WIDTH = 2
 HEIGHT = 3
-
-pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 
 
 def capture(app_name: str):

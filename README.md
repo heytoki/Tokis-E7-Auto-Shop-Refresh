@@ -52,7 +52,15 @@ Once everything is installed, run IDLE (Python 3.9)
 Inside main.py, change the Application variable to whatever emulator you are using.
 (To know the emulator's name, open it and hover over it in the taskbar.)
 
-Once you have your emulator opened and have secret shop open, go to 
+Check C:\Program Files\Tesseract-OCR in File Explorer and see if it exists. If it does not, check other drives 
+and program files and look for Tesseract-OCR.
+
+Once you find it, copy the file directory and paste it with an additional " \ " with tesseract.exe added to the end (ex.
+C:\\Program Files\\Tesseract-OCR\\tesseract.exe) in main.py 
+
+`pytesseract.tesseract_cmd = C:\\Program Files\\Tesseract-OCR\\tesseract.exe`
+
+If you have your emulator secret shop open, go to 
 
 `Run > Run Module`
 
