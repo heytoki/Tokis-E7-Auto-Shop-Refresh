@@ -52,9 +52,13 @@ Once everything is installed, run IDLE (Python 3.9)
 Inside main.py, change the Application variable to whatever emulator you are using.
 (To know the emulator's name, open it and hover over it in the taskbar.)
 
-Once you have your emulator opened and have secret shop open, go to
+Once you have your emulator opened and have secret shop open, go to 
 
 `Run > Run Module`
+
+**The emulator HAS to be on your main monitor!**
+
+**If you want to stop the macro, drag your mouse to the TOP LEFT corner of your monitor!**
 
 *Warning!!!*
 -
