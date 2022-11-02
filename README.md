@@ -1,15 +1,9 @@
 # Tokis E7 Auto Shop Refresh
- A monkey brained gacha gamer with spending problem decided to make this for fun.
  EmaOlay previously made one using pictures but that requires different pictures
- different video settings.
+ for different video settings.
  
  This one only requires to change a single line in the code to match the emulator
- of your choice!
- 
- It has got everything you need.
-  - scuffed code
-  - questionable thought process
-  - and a logic of if it works, it works
+ of your choice.
  
  It doesn't work 100% of the time, maybe missing a bookmark or two once in a while.
  
